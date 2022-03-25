@@ -43,7 +43,7 @@ public  class Banklmpl implements Ibank {
 		if(Balence >= Amount)
 		{
 		      Balence = Balence - Amount;
-		      //Amount =  Amount-WithDrawl;
+		      //Amount=Amount-WithDrawl;
 		      System.out.println("After withdrawl :"+Balence);
 		}
 		
