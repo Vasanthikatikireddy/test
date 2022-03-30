@@ -5,7 +5,6 @@ public class ArrayDelete {
 	    int[] intArr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 	    System.out.print("Enter Element to be deleted : ");
 	    int elem = in.nextInt();
-	    
 	    for(int i = 0; i < intArr.length-1; i++){
 	      if(intArr[i] == elem){
 	        // shifting elements
@@ -15,10 +14,8 @@ public class ArrayDelete {
 	        break;
 	      }
 	    }
-	      
 	    System.out.println("Elements  are :" );
 	    for(int i = 0; i < intArr.length; i++){
-	      
 	    	System.out.print(" " + intArr[i]);
 	    }                
 	  }
